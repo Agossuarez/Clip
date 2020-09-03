@@ -1,0 +1,19 @@
+h1 { color:darkgreen; text-align: center}; 
+h1 {font-size: 30px;}
+
+
+body{
+    
+    background:lightgreen;
+    color:black
+    
+}
+
+img{
+    display:block;
+    margin:auto;
+    }
+
+p{
+    text-align: center
+}

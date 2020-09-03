@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel ="stylesheet" href ="css\stilos2.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="\js\probando.js"></script>
+    </head>
+<body>
+
+  <form class="text-center border border-light p-5" action="#!">
+ 
+    <div> 
+      <script>var intentos=0 </script>
+      <p class="h4 mb-4">Adivinanza</p>
+      <p class = "h4 mb-4">Cual de estos no es un beneficios de una dieta vegetariana</p>
+      <p class = "form-control mb-4">1.Digestiones más ligeras </p> 
+      <p class ="form-control mb-4">2.Ayuda a mantener el bienestar de las especies animales</p>
+      <p class ="form-control mb-4">3.Presión arterial más baja</p>
+      <p class="form-control mb-4">4.Ayuda a prevenir la extinción de especies animales </p>      
+      <input type="text" placeholder="Escribe el numero de tu respuesta" class="form-control mb-4"  id="respuesta" > </input>
+      <input type="submit"  value="Confirmar" name="confirmar" id="confirmar" class="confimar" onclick="control()" ></input>
+      <input type="button" value="Actualizar" id="Actualizar" onClick="location.reload();"/>
+      <button><a href="\bookcoteca.html" >Volver</a></button>
+    
+
+
+    </div>
+    
+    
+    
+  </form>
+</body>
+<script> var timer = null;
+function auto_reload()
+{
+ top.location.href = 'http://127.0.0.1:5500/guess.html?confirmar=Confirmar#!';
+} </script>  <body onload="timer = setTimeout('auto_reload()',1);">
+
+
+</html>
